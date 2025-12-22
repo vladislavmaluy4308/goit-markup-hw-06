@@ -53,11 +53,65 @@
           </ul>
         </address>
       </div>
+      <!--MOBILE MENU-->
+
+      <button class="menu-open-btn" type="button" data-menu-open>
+        <svg class="menu-open-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+
+      <div class="mob-menu is-open" data-menu>
+        <div class="container mob-menu-container">
+          <button class="menu-close-btn" type="button" data-menu-close>
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="mob-nav">
+            <ul class="mob-nav-list list">
+              <li class="mob-nav-item">
+                <a class="mob-nav-link link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="mob-menu-bottom">
+            <address class="mob-address">
+              <ul class="mob-address-list list">
+                <li class="mob-address-item">
+                  <a class="mob-address-tel link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-address-item">
+                  <a
+                    class="mob-address-email link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!--SECTION HERO -->
 
-      <section class="hero hide">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
@@ -671,7 +725,7 @@
 
     <!--MODAL WINDOW-->
 
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -761,59 +815,6 @@
 
           <button type="submit" class="modal-submit-btn">Send</button>
         </form>
-      </div>
-    </div>
-
-    <!--MOBILE MENU-->
-
-    <button class="menu-open-btn" type="button" data-menu-open>
-      <svg class="menu-open-icon" width="24" height="24">
-        <use href="./images/icons.svg#icon-menu"></use>
-      </svg>
-    </button>
-
-    <div class="mob-menu" data-menu>
-      <div class="container mob-menu-container">
-        <button class="menu-close-btn" type="button" data-menu-close>
-          <svg class="menu-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-
-        <nav class="mob-nav">
-          <ul class="mob-nav-list list">
-            <li class="mob-nav-item">
-              <a class="mob-nav-link link current" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="mob-menu-bottom">
-          <address class="mob-address">
-            <ul class="mob-address-list list">
-              <li class="mob-address-item">
-                <a class="mob-address-tel link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="mob-address-item">
-                <a
-                  class="mob-address-email link"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
       </div>
     </div>
   </body>
