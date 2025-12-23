@@ -183,13 +183,13 @@ ol {
 .mob-menu-item:not(:last-child) {
   margin-bottom: 32px;
 }
-.mob-menu-item {
+/* .mob-menu-item {
   width: 40px;
   height: 40px;
   display: flex;
   border-radius: 50%;
   background-color: #e7e9fc;
-}
+} */
 .mob-menu-list {
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ ol {
   color: #212121;
 }
 .mob-menu-link.current {
-  color: #2196f3;
+  color: #4d5ae5;
 }
 
 .mob-contacts {
@@ -223,7 +223,7 @@ ol {
   color: #757575;
 }
 .mob-contacts-link.accent {
-  color: #2196f3;
+  color: #4d5ae5;
 }
 
 .mob-socials {
@@ -236,7 +236,7 @@ ol {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #2196f3;
+  background-color: #4d5ae5;
   border-radius: 50%;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
